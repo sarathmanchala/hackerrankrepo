@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Bree+Serif&display=swap');
+
+.header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    z-index: 2;
+}
+
+.content {
+    height: 900px;
+    width: 100%;
+}
+
+.a {
+    position: relative;
+    left: 5px;
+    top: 40px;
+    height: 60%;
+    width: 15%;
+}
+
+.b {
+    position: relative;
+    left: 555px;
+    top: 10px;
+    height: 80%;
+    width: 65%;
+}
+
+.c {
+    position: relative;
+    display: flex;
+    left: 5px;
+    top: 10px;
+    height: 80%;
+    width: 15%;
+}
+
+.empty {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.contentField {
+    display: block;
+    height: 700px;
+    width: 100%;
+}
+
+.login {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 60%;
+    width: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Baloo Da 2', cursive;
+/* font-family: 'Bree Serif', serif; */
+}
+
+.signup {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 60%;
+    width: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Baloo Da 2', cursive;
+/* font-family: 'Bree Serif', serif; */
+}
+
+.text {
+    position: absolute;
+    top: 30%;
+    display: flex;
+    color: #738f93;
+    font-size: large;
+    height: 500px;
+    width: 85%;
+    position: relative;
+    left: 10%;
+}
+
+.part1,
+.part2 {
+    width: 30%;
+    color: black;
+    /* font-family: 'Baloo Da 2', cursive; */
+    font-family: 'Bree Serif', serif;
+}
+
+.image {
+    height: 500px;
+    width: 40%;
+}
+
+.heading {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 10px;
+    font-family: 'Baloo Da 2', cursive;
+/* font-family: 'Bree Serif', serif; */
+}
+
+.btn {
+    position: relative;
+    top: 25%;
+    left: 50px;
+    height: 75px;
+    font-style: bold;
+    color: white;
+    background-color: green;
+    padding: 15px;
+    font-size: large;
+    border-radius: 15px;
+}
